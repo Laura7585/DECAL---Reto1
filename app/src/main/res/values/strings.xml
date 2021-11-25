@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DECAL</string>
+    <string name="menu_sucursales">Nuestras sucursales</string>
+    <string name="menu_servicios">Nuestros servicios</string>
+    <string name="menu_productos">Nuestros productos</string>
+    <string name="menu_principal">Página de bienvenida</string>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textSegundaPantalla"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Piel"
+    android:backgroundTint="@color/Piel"
+    android:backgroundTintMode="screen"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="100dp"
+                    android:layout_height="155dp"
+                    android:fontFamily="@font/fanwood_text"
+                    android:gravity="center"
+                    android:text="Domicilios de puerta a puerta, no tendrás la necesidad de desplzarte a nuestro establecimineto y además no tendrá un costo adicional." />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="258dp"
+                    android:layout_height="155dp"
+                    android:fontFamily="@font/fanwood_text"
+                    android:gravity="center"
+                    android:text="Sabemos que a veces podemos tener dificultades con nuestros productos, por esta razón ofrecemos la posibilidad de de darte la devolución del producto que hayas comprado, además sin cargos adicionales" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="187dp"
+                    android:layout_height="155dp"
+                    android:fontFamily="@font/fanwood_text"
+                    android:gravity="center"
+                    android:text="Las compras que pidas por nuestro servicio de domicilio será entregado dentro de las primeras 24 horas desde que lo pidas, si tu domicilio no llega en ese rango de tiempo, te devolvemos tú dinero!" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="259dp"
+                    android:layout_height="155dp"
+                    android:fontFamily="@font/fanwood_text"
+                    android:gravity="center"
+                    android:text="Sabemos que eres un cliente fiel a nuestros productos, por esta misma razón, si haces compras por un cierto período de tiempo,  te daremos bonos de fidelidad a la marca" />
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:background="@color/Piel"
+            android:backgroundTint="@color/Piel"
+            android:backgroundTintMode="screen" />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
